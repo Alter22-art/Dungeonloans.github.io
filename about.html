@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DungeonLoans</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <span class="menu-btn material-symbols-rounded">menu</span>
+            <a href="#" class="logo">
+                <img src="image/logo.jpg" alt="logo">
+                <h2>DungeonLoans</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="transaction.html">Transaction</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="member.html">Member</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+    <!--Popup Form-->
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please Log in using your personal information to stay connected with us</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass">Forgot Password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Dont Have An Acoount?
+                    <a href="#" id="signup-link">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Acoocunt</h2>
+                <p>To Become a part of our community, Please sign uo using your personal information to stay connected with us</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGN UP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Job</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I Agree The
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already Have An Acount?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<section class="about">
+    <div class="container">
+        <h1>Welcome to DungeonLoans</h1>
+        <p>DungeonLoans is your trusted platform for easy and secure money lending and saving. Whether you're looking to borrow money for a personal project, or you want to securely save your funds, we provide a reliable solution for all your financial needs.</p>
+        <p>Our services are designed to help individuals and businesses grow by offering flexible loan terms, easy access to funds, and the ability to store your savings in a secure environment.</p>
+        <p>Join DungeonLoans today and experience a hassle-free way to manage your money, with transparency and security at the forefront of everything we do.</p>
+    </div>
+</section>
+
+<!--Footer-->
+<footer>
+    <p>&copy; 2025 DungeonLoans. All rights reserved.</p>
+</footer>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DungeonLoans</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <span class="menu-btn material-symbols-rounded">menu</span>
+            <a href="#" class="logo">
+                <img src="image/logo.jpg" alt="logo">
+                <h2>DungeonLoans</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="transaction.html">Transaction</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="member.html">Member</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+    <!--Popup Form-->
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please Log in using your personal information to stay connected with us</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass">Forgot Password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Dont Have An Acoount?
+                    <a href="#" id="signup-link">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Acoocunt</h2>
+                <p>To Become a part of our community, Please sign uo using your personal information to stay connected with us</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGN UP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Job</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I Agree The
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already Have An Acount?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to DungeonLoans</h1>
+            <p>Pinjam dan simpan uang dengan mudah dan aman. Solusi keuangan yang tepat untuk Anda!</p>
+            <a href="transaction.html" class="cta-btn">Mulai Transaksi</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="container">
+            <h2>Tentang DungeonLoans</h2>
+            <p>DungeonLoans adalah platform keuangan yang menyediakan layanan pinjaman dan tabungan dengan proses cepat dan aman. Kami berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami dengan tingkat bunga yang kompetitif dan kemudahan akses di mana saja.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Fitur Utama Kami</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <h3>Pinjaman Cepat</h3>
+                    <p>Dapatkan pinjaman dengan proses yang cepat dan mudah tanpa ribet.</p>
+                </div>
+                <div class="feature">
+                    <h3>Simpan Uang dengan Aman</h3>
+                    <p>Simpa uang Anda dengan aman dan dapatkan bunga yang menguntungkan.</p>
+                </div>
+                <div class="feature">
+                    <h3>Akses 24/7</h3>
+                    <p>Akses layanan kami kapan saja, di mana saja, melalui platform kami yang mudah digunakan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Apa Kata Pengguna Kami?</h2>
+            <div class="testimonial">
+                <p>"DungeonLoans telah membantu saya mendapatkan pinjaman dengan bunga rendah dan proses yang sangat cepat. Layanan yang luar biasa!"</p>
+                <p>- John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"Saya sangat puas dengan DungeonLoans. Mereka sangat terpercaya dan memudahkan saya menyimpan uang!"</p>
+                <p>- Jane Smith</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 DungeonLoans. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

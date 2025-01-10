@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DungeonLoans</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <span class="menu-btn material-symbols-rounded">menu</span>
+            <a href="#" class="logo">
+                <img src="image/logo.jpg" alt="logo">
+                <h2>DungeonLoans</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="transaction.html">Transaction</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="member.html">Member</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+    <!--Popup Form-->
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please Log in using your personal information to stay connected with us</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass">Forgot Password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Dont Have An Acoount?
+                    <a href="#" id="signup-link">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Acoocunt</h2>
+                <p>To Become a part of our community, Please sign uo using your personal information to stay connected with us</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGN UP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Job</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I Agree The
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already Have An Acount?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="gallery">
+        <div class="container">
+            <h1>CREST</h1>
+            <div class="gallery-grid">
+                <!-- Gallery Images -->
+                <div class="gallery-item">
+                    <img src="image/Gold.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Diamond 1.jpg" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Diamond" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Copper.jpg" alt="Gallery Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Member Cost Table Section -->
+    <section class="member-cost">
+        <div class="container">
+            <h2>Member Cost</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Membership Level</th>
+                        <th>Price</th>
+                        <th>Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Diamond</td>
+                        <td>$500</td>
+                        <td>Exclusive offers, VIP Support, Early Access</td>
+                    </tr>
+                    <tr>
+                        <td>Platinum</td>
+                        <td>$300</td>
+                        <td>Special offers, Premium Support</td>
+                    </tr>
+                    <tr>
+                        <td>Gold</td>
+                        <td>$200</td>
+                        <td>Regular offers, Priority Support</td>
+                    </tr>
+                    <tr>
+                        <td>Silver</td>
+                        <td>$100</td>
+                        <td>Standard offers, Basic Support</td>
+                    </tr>
+                    <tr>
+                        <td>Copper</td>
+                        <td>$50</td>
+                        <td>Access to basic services</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 DungeonLoans. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
